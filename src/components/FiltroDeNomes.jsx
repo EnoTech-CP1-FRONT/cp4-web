@@ -10,7 +10,7 @@ export default function FiltroDeNomes({ nomes }) {
   return (
     <div>
       <h3 className="text-xl font-semibold text-slate-700 mb-2">
-        Busque um Nome
+        Busque uma Marca
       </h3>
       <input
         type="text"
