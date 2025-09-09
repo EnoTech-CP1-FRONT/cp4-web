@@ -17,25 +17,8 @@ Vite: O projeto utiliza o Vite como ferramenta de build e servidor de desenvolvi
 
 Tailwind CSS: Para a estilização dos componentes, foi utilizado o framework Tailwind CSS.
 
-# Como Executar o Projeto
-Clone o repositório:
+# Autores
 
-Bash
-
-git clone <url-do-repositorio>
-Instale as dependências:
-
-Bash
-
-npm install
-Inicie o servidor de desenvolvimento:
-
-Bash
-
-npm run dev
-A aplicação estará disponível em http://localhost:5173.
-
-Autores
 Gabriel Akira - RM 565191
 
 Mauro Carlos - RM 556645
