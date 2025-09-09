@@ -1,4 +1,3 @@
-// ListarNomes.js (versão atualizada)
 import { useState } from "react";
 import Contador from "./Contador";
 import FiltroDeNomes from "./FiltroDeNomes";
