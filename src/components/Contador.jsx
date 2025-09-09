@@ -1,18 +1,10 @@
-import { useState } from "react";
+// Contador.js
 
-export default function Contador() {
-  const [counter, setCounter] = useState(0);
-
+// Usamos a desestruturação { totalDeNomes } para pegar a prop diretamente.
+export default function Contador({ totalDeNomes }) {
   return (
-    <>
-      <p>Contador: {counter}</p>
-      <button onClick={() => setCounter(10)}>Atualizar</button>
-      <button onClick={() => setCounter((prevValue) => prevValue + 1)}>
-        Incrementar
-      </button>
-      <button onClick={() => setCounter((prevValue) => prevValue - 1)}>
-        Decrementar
-      </button>
-    </>
+    <div>
+      <h2>Total de Nomes na Lista: {totalDeNomes}</h2>
+    </div>
   );
 }
